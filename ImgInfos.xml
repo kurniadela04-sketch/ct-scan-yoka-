@@ -1,0 +1,534 @@
+
+
+  <Array>
+    <DataObject ObjectType="ImageInformationPreset">
+      <Attribute Name="PresetName">"Copy of Philips CT"</Attribute>
+      <Attribute Name="IsDefault">1</Attribute>
+      <Attribute Name="AnnotationDefinition">
+        <DataObject ObjectType="AnnotationDefinition">
+          <Attribute Name="Modality">"CT"</Attribute>
+          <Attribute Name="ImageType">""</Attribute>
+          <Attribute Name="AnnotationCells">
+            <Array>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0</Attribute>
+                <Attribute Name="Y">0</Attribute>
+                <Attribute Name="Width">0.34</Attribute>
+                <Attribute Name="Height">0.34</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">1</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.PatientName"</Attribute>
+                            <Attribute Name="EntryName">"PatientName"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">2</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="DicomEntry">
+                            <Attribute Name="Group">16</Attribute>
+                            <Attribute Name="Element">32</Attribute>
+                            <Attribute Name="Source">"Image"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.DateOfBirth"</Attribute>
+                            <Attribute Name="EntryName">"DateOfBirth"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                          <DataObject ObjectType="DicomEntry">
+                            <Attribute Name="Group">16</Attribute>
+                            <Attribute Name="Element">64</Attribute>
+                            <Attribute Name="Source">"Image"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">3</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="DicomEntry">
+                            <Attribute Name="Group">8</Attribute>
+                            <Attribute Name="Element">4158</Attribute>
+                            <Attribute Name="Source">"Image"</Attribute>
+                            <Attribute Name="Format">"$string.tag.0008103e.long$ {0}"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">4</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.ScanAndSliceNumber"</Attribute>
+                            <Attribute Name="EntryName">"ScanAndSliceNumber"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">5</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="DicomEntry">
+                            <Attribute Name="Group">32</Attribute>
+                            <Attribute Name="Element">4161</Attribute>
+                            <Attribute Name="Source">"Image"</Attribute>
+                            <Attribute Name="Format">"$string.tag.00201041.short$ {0:#,##0.00}"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">6</Attribute>
+                      <Attribute Name="Justification">"LEFT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="DicomEntry">
+                            <Attribute Name="Group">24</Attribute>
+                            <Attribute Name="Element">16</Attribute>
+                            <Attribute Name="Source">"Image"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                  </Array>
+                </Attribute>
+              </DataObject>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0.67</Attribute>
+                <Attribute Name="Y">0</Attribute>
+                <Attribute Name="Width">0.33</Attribute>
+                <Attribute Name="Height">0.34</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">1</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.InstitutionName"</Attribute>
+                            <Attribute Name="EntryName">"InstitutionName"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">2</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.ContentDate"</Attribute>
+                            <Attribute Name="EntryName">"ContentDate"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.ContentTime"</Attribute>
+                            <Attribute Name="EntryName">"ContentTime"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">3</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.Exposure"</Attribute>
+                            <Attribute Name="EntryName">"Exposure"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">4</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.FieldOfView"</Attribute>
+                            <Attribute Name="EntryName">"FieldOfView"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">5</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.SliceThickness"</Attribute>
+                            <Attribute Name="EntryName">"SliceThickness"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">6</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.ZoomFactor"</Attribute>
+                            <Attribute Name="EntryName">"ZoomFactor"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                  </Array>
+                </Attribute>
+              </DataObject>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0.4</Attribute>
+                <Attribute Name="Y">0</Attribute>
+                <Attribute Name="Width">0.2</Attribute>
+                <Attribute Name="Height">0.022</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                  </Array>
+                </Attribute>
+              </DataObject>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0</Attribute>
+                <Attribute Name="Y">0.978</Attribute>
+                <Attribute Name="Width">0.6</Attribute>
+                <Attribute Name="Height">0.06</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                  </Array>
+                </Attribute>
+              </DataObject>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0.6</Attribute>
+                <Attribute Name="Y">0.978</Attribute>
+                <Attribute Name="Width">0.4</Attribute>
+                <Attribute Name="Height">0.022</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">1</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.WindowLevel"</Attribute>
+                            <Attribute Name="EntryName">"WindowLevel"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                    <DataObject ObjectType="AnnotationRow">
+                      <Attribute Name="RowNumber">2</Attribute>
+                      <Attribute Name="Justification">"RIGHT"</Attribute>
+                      <Attribute Name="Delimiter">", "</Attribute>
+                      <Attribute Name="FontName">"Arial"</Attribute>
+                      <Attribute Name="RowHeight">0.02</Attribute>
+                      <Attribute Name="AnnotationEntries">
+                        <Array>
+                          <DataObject ObjectType="FunctionEntry">
+                            <Attribute Name="AnnotationCalculatorObjectName">"Philips.PmsMip.Private.Viewing.Annotators.ImageInfo.Calculator.WindowWidth"</Attribute>
+                            <Attribute Name="EntryName">"WindowWidth"</Attribute>
+                            <Attribute Name="Highlight">0</Attribute>
+                          </DataObject>
+                        </Array>
+                      </Attribute>
+                      <Attribute Name="BackgroundColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                      <Attribute Name="ForegroundColor">
+                        248
+                        176
+                        94
+                      </Attribute>
+                      <Attribute Name="ShadowColor">
+                        0
+                        0
+                        0
+                      </Attribute>
+                    </DataObject>
+                  </Array>
+                </Attribute>
+              </DataObject>
+              <DataObject ObjectType="AnnotationCell">
+                <Attribute Name="X">0.4</Attribute>
+                <Attribute Name="Y">0.978</Attribute>
+                <Attribute Name="Width">0.2</Attribute>
+                <Attribute Name="Height">0.022</Attribute>
+                <Attribute Name="AnnotationRows">
+                  <Array>
+                  </Array>
+                </Attribute>
+              </DataObject>
+            </Array>
+          </Attribute>
+        </DataObject>
+      </Attribute>
+    </DataObject>
+  </Array>

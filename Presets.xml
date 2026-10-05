@@ -1,0 +1,60 @@
+
+
+  <Array>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Abdomen"</Attribute>
+      <Attribute Name="LowerWidth">200</Attribute>
+      <Attribute Name="LowerLevel">100</Attribute>
+      <Attribute Name="UpperWidth">360</Attribute>
+      <Attribute Name="UpperLevel">60</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Bone"</Attribute>
+      <Attribute Name="LowerWidth">1600</Attribute>
+      <Attribute Name="LowerLevel">600</Attribute>
+      <Attribute Name="UpperWidth">2000</Attribute>
+      <Attribute Name="UpperLevel">800</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Brain"</Attribute>
+      <Attribute Name="LowerWidth">2000</Attribute>
+      <Attribute Name="LowerLevel">800</Attribute>
+      <Attribute Name="UpperWidth">70</Attribute>
+      <Attribute Name="UpperLevel">35</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"IAC"</Attribute>
+      <Attribute Name="LowerWidth">2000</Attribute>
+      <Attribute Name="LowerLevel">800</Attribute>
+      <Attribute Name="UpperWidth">4095</Attribute>
+      <Attribute Name="UpperLevel">600</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Liver"</Attribute>
+      <Attribute Name="LowerWidth">150</Attribute>
+      <Attribute Name="LowerLevel">80</Attribute>
+      <Attribute Name="UpperWidth">200</Attribute>
+      <Attribute Name="UpperLevel">100</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Lung"</Attribute>
+      <Attribute Name="LowerWidth">1400</Attribute>
+      <Attribute Name="LowerLevel">-500</Attribute>
+      <Attribute Name="UpperWidth">1600</Attribute>
+      <Attribute Name="UpperLevel">-600</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"P.F."</Attribute>
+      <Attribute Name="LowerWidth">70</Attribute>
+      <Attribute Name="LowerLevel">35</Attribute>
+      <Attribute Name="UpperWidth">150</Attribute>
+      <Attribute Name="UpperLevel">35</Attribute>
+    </DataObject>
+    <DataObject ObjectType="WindowPreset">
+      <Attribute Name="PresetName">"Spine"</Attribute>
+      <Attribute Name="LowerWidth">2000</Attribute>
+      <Attribute Name="LowerLevel">800</Attribute>
+      <Attribute Name="UpperWidth">300</Attribute>
+      <Attribute Name="UpperLevel">60</Attribute>
+    </DataObject>
+  </Array>
